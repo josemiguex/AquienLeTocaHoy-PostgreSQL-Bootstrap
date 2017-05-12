@@ -1,0 +1,121 @@
+h1,h2,h3,h4,h5,h6 {
+color: #FFFFFF;
+text-align: center;
+text-shadow: 0.1em 0.1em #333;
+}
+p,b {
+color: white;
+}
+
+.button {
+    background-color: #b6b4b7; 
+    border: 2px solid #ebccbb;
+    color: white;
+    padding: 15px 20px;
+    width: 250px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.1s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+    
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.2s;
+}
+
+.button:hover {
+    background-color: #616d91; 
+    
+    
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+label {
+	color: #FFF;
+	text-shadow: 0.1em 0.1em #333;
+}
+
+div.uno {
+border-top: 500px;
+}
+
+.input-field label {
+     color: #FFF;
+     text-shadow: 0.1em 0.1em #333;
+
+   }
+   
+   .input-field input[type=text]:focus + label {
+     color: #FFF;
+     text-shadow: 0.1em 0.1em #333;
+     
+   }
+   
+      .input-field input[type=text]:focus {
+     border-bottom: 1px solid #FFF;
+     box-shadow: 0 1px 0 0 #FFF;
+   }
+   
+   .input-field input[type=password]:focus + label {
+     color: #FFF;
+     text-shadow: 0.1em 0.1em #333;
+     
+   }
+   
+      .input-field input[type=password]:focus {
+     border-bottom: 1px solid #FFF;
+     box-shadow: 0 1px 0 0 #FFF;
+   }
+   
+   .input-field input[type=email]:focus + label {
+     color: #FFF;
+     text-shadow: 0.1em 0.1em #333;
+     
+   }
+   
+      .input-field input[type=email]:focus {
+     border-bottom: 1px solid #FFF;
+     box-shadow: 0 1px 0 0 #FFF;
+   }
+   /* valid color */
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid #FFF;
+     box-shadow: 0 1px 0 0 #FFF;
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid {
+     border-bottom: 1px solid #FFF;
+     box-shadow: 0 1px 0 0 #FFF;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #FFF;
+   }
+   
+

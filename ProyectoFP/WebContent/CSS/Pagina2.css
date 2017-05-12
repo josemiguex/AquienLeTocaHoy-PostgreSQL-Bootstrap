@@ -1,0 +1,83 @@
+h1,h2,h3,h4,h5,h6 {
+color: #FFFFFF;
+text-align: center;
+text-shadow: 0.1em 0.1em #333;
+}
+p,b {
+color: white;
+}
+
+.button {
+    background-color: #c1c1c1; 
+    border: 2px solid #dbdbdb;
+    color: white;
+  padding: 7px 10px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.1s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+    
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.2s;
+}
+
+.button:hover {
+    background-color: #dbdbdb; 
+    color: black;
+    
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.input-field label {
+     color: #000;     
+     
+   }
+   
+
+.contenedor {
+
+    margin: 3vw;
+}
+
+ 
+a {
+color: grey;	
+	
+}
+
+label {
+	color: white;
+	text-shadow: 0.1em 0.1em #333;
+	
+}
+.modal-header {
+ background-color: #c1c1c1;
+ }
+

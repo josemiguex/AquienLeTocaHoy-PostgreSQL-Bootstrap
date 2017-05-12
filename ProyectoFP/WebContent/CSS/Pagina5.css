@@ -1,0 +1,112 @@
+h1,h2,h3,h4,h5,h6 {
+color: #FFFFFF;
+text-align: center;
+text-shadow: 0.1em 0.1em #333;
+}
+p,b {
+color: white;
+}
+
+.button {
+    background-color: #8d6e63; 
+    border: 2px solid #4b301f;
+    color: white;
+    padding: 15px 20px;
+    width: 250px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.1s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+    
+}
+
+.a{
+	tet-shadow:0px 0px ;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.2s;
+}
+
+.button:hover {
+    background-color: #5e3c27; 
+    
+    
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+input {
+color: white;
+}
+
+div.uno {
+border-top: 500px;
+}
+
+.input-field label {
+     color: #FFF;
+   }
+   
+   .input-field input[type=text]:focus + label {
+     color: #FFF;
+   }
+   
+      .input-field input[type=text]:focus {
+     border-bottom: 1px solid #FFF;
+     box-shadow: 0 1px 0 0 #FFF;
+   }
+   
+   .input-field input[type=password]:focus + label {
+     color: #FFF;
+   }
+   
+      .input-field input[type=password]:focus {
+     border-bottom: 1px solid #FFF;
+     box-shadow: 0 1px 0 0 #FFF;
+   }
+   /* valid color */
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid #FFF;
+     box-shadow: 0 1px 0 0 #FFF;
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid {
+     border-bottom: 1px solid #FFF;
+     box-shadow: 0 1px 0 0 #FFF;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #FFF;
+   }
+   
+	::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #FFF;
+}
+
+.contenedor {
+
+    margin: 3vw;
+}

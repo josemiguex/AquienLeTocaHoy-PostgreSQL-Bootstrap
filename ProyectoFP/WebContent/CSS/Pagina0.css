@@ -1,0 +1,105 @@
+h1,h2,h3,h4,h6 {
+color: #FFFFFF;
+text-align: center;
+text-shadow: 0.1em 0.1em #333;
+}
+
+h5 {
+	color: #FFFFFF;
+	text-shadow: 0.1em 0.1em #333;
+}
+p,b {
+color: white;
+text-shadow: 0.1em 0.1em #333;
+
+}
+
+.button {
+    background-color: #8d6e63; 
+    border: 2px solid #4b301f;
+    color: white;
+    padding: 14px 20px;
+    width: 300px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    border-radius: 8px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.1s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+    
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.2s;
+}
+
+.button:hover {
+    background-color: #5e3c27; 
+    
+    
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+div.uno {
+border-top: 500px;
+}
+
+.input-field label {
+     color: #000;
+     text-shadow: 0.1em 0.1em #333;
+     
+     
+   }
+   
+ .modal-header {
+ background-color: #8d6e63;
+ }
+
+.modal-content {
+background-color: #f5f1f0;
+}
+.contenedor {
+
+    margin: 3vw;
+}
+
+a {
+color: white;	
+	text-shadow: 0.1em 0.1em #333;
+	
+}
+
+a:hover {
+color: white;	
+	
+}
+
+label {
+	color: white;
+	text-shadow: 0.1em 0.1em #333;
+	
+}
+
+
